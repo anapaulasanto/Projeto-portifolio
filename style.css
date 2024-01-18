@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(25, 23, 27); */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(146, 100, 146, 0.363);
+    margin-bottom: 60px;
+    
+}
+
+#titulo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+span {
+    margin-left: 10px;
+    font-size: .7em;
+    color: gray;
+}
+
+#titulo-nav > p {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+#menu-nav {
+    margin-right: 40px;
+}
+
+#menu-nav > a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: .89em;
+    font-weight: 500;
+}
+
+#menu-nav > a:hover {
+    color: gray;
+}
+
+#curriculo-nav {
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+#text-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+#text-side > h1 {
+    font-size: 3.5em;
+}
+
+#text-side > h3 {
+    font-weight: 400;
+}
+
+#text-side > p {
+    margin-top: 10px;
+    font-weight: 300;
+    width: 600px;
+    text-align: center;
+    letter-spacing: .8px;
+}
+
+#button-text-side {
+    margin-top: 30px;
+}
+
+#button-text-side > a {
+    text-decoration: none;
+    background-color: rgb(151, 88, 151);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#button-text-side > a:hover {
+    background-color: rgb(198, 146, 198);
+}
+
+#img-side > img {
+    width: 380px;
+}
+
+footer {
+    background-color: rgba(234, 231, 231, 0.438);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(146, 100, 146, 0.363);
+}
+#contato-footer {
+    display: flex;
+    gap: 200px;
+}
+
+footer p {
+    font-size: .8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(64, 39, 74);
+}
+
+footer h2 {
+    margin: 20px;
+    margin-bottom: 40px;
+    color: purple;
+}
+
+footer h3 {
+    font-size: .8em;
+    text-align: center;
+}
