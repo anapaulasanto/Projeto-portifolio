@@ -13,11 +13,9 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    padding-bottom: 30px;
+    padding: 40px 0;
     border-bottom: 1px solid rgba(146, 100, 146, 0.363);
     margin-bottom: 60px;
-    
 }
 
 #titulo-nav {
@@ -26,6 +24,17 @@ nav {
     align-items: center;
     margin-left: 30px;
 }
+
+.btn-nav > img {
+    width:40px;
+    margin-right: 60px;
+    display: block;
+    position: fixed;
+    top: 40px;
+    right: 1px;
+    z-index: 3;
+}
+
 
 span {
     margin-left: 10px;
@@ -54,10 +63,6 @@ span {
     color: gray;
 }
 
-#curriculo-nav {
-    border-right: 1px solid black;
-    padding-right: 15px;
-}
 
 main {
     display: flex;
@@ -90,6 +95,14 @@ main {
     letter-spacing: .8px;
 }
 
+#paragrafo-main {
+    font-size: .9em;
+    text-align: center;
+    color: purple;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 #button-text-side {
     margin-top: 30px;
 }
@@ -101,6 +114,7 @@ main {
     padding: 10px 15px;
     border-radius: 8px;
     margin-right: 10px;
+    box-shadow: -1px 1px 8px rgb(163, 162, 162);
 }
 
 #button-text-side > a:hover {
@@ -132,7 +146,6 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
     color: rgb(64, 39, 74);
 }
 

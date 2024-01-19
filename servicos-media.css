@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+
+    body, html, main {
+        overflow-x: hidden;
+    }
+
+    .btn-nav > img {
+        width:40px;
+        margin-right: 60px;
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        left: 330px;
+        z-index: 3;
+    }
+
+    .img-side {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        box-shadow: -3px 2px 20px rgb(201, 201, 201);
+    }
+
+    .img-side img {
+        align-self: auto;
+        align-items: center;
+        margin-bottom: 10px;
+        box-shadow: -1px -1px 5px rgb(201, 201, 201);
+    }
+
+    .text-left-side {
+        margin-bottom: 0;
+    }
+
+    #text-side h1, p {
+        font-size: 1em;
+    }
+
+    .text-left-side > h2 {
+        margin: 20px 90px 30px 20px;
+        padding-left: 10px;
+        letter-spacing: 1px;
+        color: rgb(106, 106, 107);
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .text-left-side p {
+        font-size: .8em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    #contato-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+    

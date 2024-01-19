@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(25, 23, 27); */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(146, 100, 146, 0.363);
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+nav > a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(215, 158, 215);
+    color: white;
+    padding: 5px 23px;
+    border-radius: 12px;
+    font-size: .95em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    background-color: rgb(71, 20, 66);
+}
+
+#titulo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.btn-nav > img {
+    width:45px;
+    margin-right: 60px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 1px;
+    z-index: 3;
+}
+
+
+span {
+    margin-left: 10px;
+    font-size: .7em;
+    color: gray;
+}
+
+#titulo-nav > p {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+#menu-nav {
+    margin-right: 40px;
+}
+
+#menu-nav > a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: .89em;
+    font-weight: 500;
+}
+
+#menu-nav > a:hover {
+    color: gray;
+}
+
+body {
+    background-color: rgba(230, 218, 206, 0.467);
+}
+
+.img-side {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 60px;
+    box-shadow: -3px 1px 20px rgb(201, 201, 201);
+}
+
+.text-left-side {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 180px;
+}
+
+.text-left-side > h2 {
+    align-self: flex-start;
+    border-left: 10px solid rgba(135, 98, 152, 0.467);
+    margin: 0 90px 30px 20px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    color: rgb(106, 106, 107);
+    font-weight: 500;
+}
+
+.text-left-side p {
+    width: 300px;
+    margin-left: 20px;
+    color: rgb(163, 162, 162);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .9em;
+}
+
+.img-side  img {
+    display: flex;
+    align-self: self-end;
+}
+
+#text-side > h1 {
+   font-size: 1.5em;
+   font-weight: 600;
+   letter-spacing: 3px;
+   margin-left: 20px;
+   color: gray;
+   border-left: 1px solid black;
+   padding-left: 10px;
+}
+
+#text-side > p {
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: .8em;
+    color: rgb(55, 55, 55);
+} 
+
+#mechas-text > h2 {
+    margin-left: 40px;
+    margin-right: 130px;
+}
+footer {
+    background-color: rgba(234, 231, 231, 0.438);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(146, 100, 146, 0.363);
+    margin-top: 20px;
+}
+#contato-footer {
+    display: flex;
+    gap: 200px;
+}
+
+footer p {
+    font-size: .8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: rgb(64, 39, 74);
+}
+
+footer h2 {
+    margin: 20px;
+    margin-bottom: 40px;
+    color: purple;
+}
+
+footer h3 {
+    font-size: .8em;
+    text-align: center;
+}
